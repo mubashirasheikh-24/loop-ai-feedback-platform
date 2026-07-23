@@ -27,17 +27,14 @@ model User {
   role      Role     @default(VIEWER)
   createdAt DateTime @default(now())
 
-  feedbacks Feedback[]
 }
 
 model Feedback {
-  id          String      @id @default(cuid())
-  content     String
-  channel     String
-  sentiment   Sentiment?
-  theme       String?
-  createdAt   DateTime    @default(now())
+  id        String   @id @default(cuid())
+  customer  String
+  message   String
+  sentiment String
+  rating    Int
 
-  userId      String
-  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
 }
