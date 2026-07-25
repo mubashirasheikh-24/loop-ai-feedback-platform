@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center bg-blue-50">
@@ -9,9 +11,12 @@ export default function Home() {
         AI Customer Feedback Intelligence Platform
       </p>
 
-      <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      <Link
+        href="/login"
+        className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+      >
         Get Started
-      </button>
+      </Link>
     </main>
   );
 }
