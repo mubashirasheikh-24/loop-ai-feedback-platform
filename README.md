@@ -1,36 +1,220 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LOOP – AI Customer Feedback Intelligence Platform
 
-## Getting Started
+An AI-powered customer feedback management system built with **Next.js**, **TypeScript**, **Prisma**, **PostgreSQL**, **NextAuth**, and **OpenAI**.
 
-First, run the development server:
+The platform enables businesses to collect customer feedback, analyse sentiment using AI, visualise insights through dashboards and charts, and manage feedback efficiently.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://loop-ai-feedback-platform-ten.vercel.app
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your application here.
+
+Suggested screenshots:
+
+- Home Page
+- Login Page
+- Dashboard
+- Feedback Form
+- Analytics Page
+- Reports Page
+
+---
+
+## ✨ Features
+
+### Authentication
+
+- User Registration
+- Secure Login
+- Logout
+- Password hashing using bcrypt
+- Protected user sessions with NextAuth
+
+### Dashboard
+
+- Total Feedback
+- Positive Feedback
+- Neutral Feedback
+- Negative Feedback
+- Feedback statistics cards
+- Interactive charts
+
+### Feedback Management
+
+- Add Feedback
+- Edit Feedback
+- Delete Feedback
+- Search Feedback
+- Filter by Sentiment
+
+### AI Integration
+
+- AI-powered Sentiment Analysis
+- Automatic classification into:
+  - Positive
+  - Neutral
+  - Negative
+
+### Reports
+
+- View reports
+- Export report functionality
+
+### Settings
+
+- User settings page
+- Profile management interface
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- Next.js API Routes
+- Prisma ORM
+- PostgreSQL (Neon)
+
+### Authentication
+
+- NextAuth.js
+- bcrypt
+
+### AI
+
+- OpenAI API
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+components/
+lib/
+prisma/
+public/
+
+README.md
+package.json
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/mubashirasheikh-24/loop-ai-feedback-platform.git
+```
+
+Go inside the project
+
+```bash
+cd loop-ai-feedback-platform
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔑 Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env` file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+DATABASE_URL=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXTAUTH_SECRET=
 
-## Deploy on Vercel
+NEXTAUTH_URL=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+OPENAI_API_KEY=
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📊 Database
+
+Database is managed using:
+
+- Prisma ORM
+- PostgreSQL (Neon)
+
+Run migrations
+
+```bash
+npx prisma migrate dev
+```
+
+Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+---
+
+## 📈 Future Improvements
+
+- Email notifications
+- Role-based access control
+- Advanced analytics
+- CSV/PDF exports
+- Dark mode
+- AI-generated business insights
+
+---
+
+## 👩‍💻 Author
+
+**Mubashira Sheikh**
+
+Software Engineer
+
+LinkedIn:
+(https://www.linkedin.com/in/mubashira-sheikh-413423205/)
+
+GitHub:
+(https://github.com/mubashirasheikh-24#-lets-connect)
+
+---
+
+## 📄 License
+
+This project is developed for educational and internship purposes.
