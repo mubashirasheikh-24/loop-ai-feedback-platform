@@ -14,16 +14,12 @@ The platform enables businesses to collect customer feedback, analyse sentiment 
 
 ## 📸 Screenshots
 
-> Add screenshots of your application here.
-
-Suggested screenshots:
-
-- Home Page
-- Login Page
-- Dashboard
-- Feedback Form
-- Analytics Page
-- Reports Page
+- Home Page: ![alt text](<Screenshot (28).png>)
+- Login Page: ![alt text](<Screenshot (20).png>)
+- Dashboard: ![alt text](<Screenshot (21)-1.png>)
+- Feedback Form: ![alt text](<Screenshot (22).png>)
+- Analytics Page: ![alt text](<Screenshot (23).png>)
+- Reports Page: ![alt text](<Screenshot (25).png>)
 
 ---
 
